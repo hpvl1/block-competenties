@@ -1,0 +1,609 @@
+@charset "UTF-8";
+
+a,
+a:active,
+a:hover,
+button:focus:not(:focus-visible),
+input,
+select,
+textarea {
+  outline: 0;
+}
+
+.table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+}
+
+hr,
+td,
+th {
+  background: 0 0;
+}
+
+caption,
+td,
+th {
+  text-align: left;
+}
+
+.btn,
+.input-group-text,
+blockquote,
+q {
+  text-align: center;
+}
+
+.table,
+input,
+select,
+td,
+textarea,
+th {
+  border: 1px solid #ddd;
+}
+
+.clearfix,
+.label,
+form,
+input,
+label,
+select,
+textarea {
+  zoom: 1;
+  position: relative;
+}
+
+.clear,
+svg:not(:root) {
+  overflow: hidden;
+}
+
+body,
+html {
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.clear,
+hr:not([size]) {
+  height: 1px;
+}
+
+.card,
+.popover,
+.toast-body,
+.tooltip,
+code {
+  word-wrap: break-word;
+}
+
+.btn,
+.btn-group,
+.btn-group-vertical,
+.navbar-toggler-icon,
+img,
+svg {
+  vertical-align: middle;
+}
+
+.badge,
+audio,
+canvas,
+progress,
+sub,
+sup,
+video {
+  vertical-align: baseline;
+}
+
+.input-group,
+.row {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  vertical-align: top;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #1e3447;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.no-touchevents a:hover,
+.touchevents a:active {
+  color: #ddd;
+}
+
+.table,
+body {
+  color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e3447;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+hr,
+input[type="file"] {
+  display: block;
+  position: relative;
+}
+
+hr {
+  line-height: 0;
+  font-size: 0;
+}
+
+ul li {
+  list-style: disc inside;
+  margin-bottom: 0;
+}
+
+hr,
+img,
+legend {
+  border: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+blockquote,
+q {
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.clear {
+  line-height: 1px;
+  margin-top: -1px;
+}
+
+pre,
+textarea {
+  overflow: auto;
+}
+
+.clear,
+form {
+  clear: both;
+}
+
+.label,
+form {
+  display: block;
+}
+
+.label,
+label {
+  font-weight: 400;
+  clear: both;
+  width: 100%;
+  margin: 0;
+}
+
+audio,
+canvas,
+label,
+output,
+progress,
+video {
+  display: inline-block;
+}
+
+input,
+select,
+textarea {
+  background: #fff;
+  box-shadow: none;
+  display: block;
+  width: 100%;
+}
+
+input[type="file"] {
+  margin: 0;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
+
+select {
+  padding: 0;
+  word-wrap: normal;
+}
+
+::-webkit-input-placeholder {
+  color: #1e3447;
+  opacity: 1;
+}
+
+:-moz-placeholder,
+::-moz-placeholder {
+  color: #1e3447;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #1e3447;
+  opacity: 1;
+}
+
+.icon-Group:before,
+.icon-account:before,
+.icon-action:before,
+.icon-administration:before,
+.icon-alphabet-tc:before,
+.icon-alphabet:before,
+.icon-arrow-left-2:before,
+.icon-arrow-left:before,
+.icon-arrow-top:before,
+.icon-attention:before,
+.icon-base-pseudo,
+.icon-business:before,
+.icon-calendar:before,
+.icon-cart:before,
+.icon-certificates:before,
+.icon-cfo:before,
+.icon-check:before,
+.icon-check_2:before,
+.icon-chevron:before,
+.icon-chief-engineer:before,
+.icon-content:before,
+.icon-contentbank:before,
+.icon-control:before,
+.icon-courses-two:before,
+.icon-courses:before,
+.icon-exit:before,
+.icon-files:before,
+.icon-finance:before,
+.icon-home:before,
+.icon-hr:before,
+.icon-iron:before,
+.icon-language:before,
+.icon-legal:before,
+.icon-library:before,
+.icon-localboostnavigationcustomrootadmins1:before,
+.icon-localboostnavigationcustomrootadmins2:before,
+.icon-logo-white:before,
+.icon-marketing-department:before,
+.icon-marketing:before,
+.icon-message:before,
+.icon-minus:before,
+.icon-mycourses:before,
+.icon-myhome:before,
+.icon-notification:before,
+.icon-np-kp:before,
+.icon-pending:before,
+.icon-person:before,
+.icon-persons:before,
+.icon-privatefiles:before,
+.icon-rating:before,
+.icon-rejected:before,
+.icon-research:before,
+.icon-revised:before,
+.icon-sales-department:before,
+.icon-sales:before,
+.icon-search:before,
+.icon-sertificate:before,
+.icon-sitesettings:before,
+.icon-sort:before,
+.icon-staff:before,
+.icon-structure:before,
+.icon-support:before,
+.icon-time:before,
+.icon-tv:before {
+  font-family: icons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.icon-Group:before {
+  content: "\E001";
+}
+
+.icon-account:before {
+  content: "\E002";
+}
+
+.icon-action:before {
+  content: "\E003";
+}
+
+.icon-administration:before {
+  content: "\E004";
+}
+
+.icon-alphabet-tc:before {
+  content: "\E005";
+}
+
+.icon-alphabet:before {
+  content: "\E006";
+}
+
+.icon-arrow-left-2:before {
+  content: "\E007";
+}
+
+.icon-arrow-left:before {
+  content: "\E008";
+}
+
+.icon-arrow-top:before {
+  content: "\E009";
+}
+
+.icon-attention:before {
+  content: "\E00A";
+}
+
+.icon-business:before {
+  content: "\E00B";
+}
+
+.icon-calendar:before {
+  content: "\E00C";
+}
+
+.icon-cart:before {
+  content: "\E00D";
+}
+
+.icon-certificates:before {
+  content: "\E00E";
+}
+
+.icon-cfo:before {
+  content: "\E00F";
+}
+
+.icon-check:before {
+  content: "\E010";
+}
+
+.icon-check_2:before {
+  content: "\E011";
+}
+
+.icon-chevron:before {
+  content: "\E012";
+}
+
+.icon-chief-engineer:before {
+  content: "\E013";
+}
+
+.icon-content:before {
+  content: "\E014";
+}
+
+.icon-contentbank:before {
+  content: "\E015";
+}
+
+.icon-control:before {
+  content: "\E016";
+}
+
+.icon-courses-two:before {
+  content: "\E017";
+}
+
+.icon-courses:before {
+  content: "\E018";
+}
+
+.icon-exit:before {
+  content: "\E019";
+}
+
+.icon-files:before {
+  content: "\E01A";
+}
+
+.icon-finance:before {
+  content: "\E01B";
+}
+
+.icon-home:before {
+  content: "\E01C";
+}
+
+.icon-hr:before {
+  content: "\E01D";
+}
+
+.icon-iron:before {
+  content: "\E01E";
+}
+
+.icon-language:before {
+  content: "\E01F";
+}
+
+.icon-legal:before {
+  content: "\E020";
+}
+
+.icon-library:before {
+  content: "\E021";
+}
+
+.icon-localboostnavigationcustomrootadmins1:before {
+  content: "\E022";
+}
+
+.icon-localboostnavigationcustomrootadmins2:before {
+  content: "\E023";
+}
+
+.icon-logo-white:before {
+  content: "\E024";
+}
+
+.icon-marketing-department:before {
+  content: "\E025";
+}
+
+.icon-marketing:before {
+  content: "\E026";
+}
+
+.icon-message:before {
+  content: "\E027";
+}
+
+.icon-minus:before {
+  content: "\E028";
+}
+
+.icon-mycourses:before {
+  content: "\E029";
+}
+
+.icon-myhome:before {
+  content: "\E02A";
+}
+
+.icon-notification:before {
+  content: "\E02B";
+}
+
+.icon-np-kp:before {
+  content: "\E02C";
+}
+
+.icon-pending:before {
+  content: "\E02D";
+}
+
+.icon-person:before {
+  content: "\E02E";
+}
+
+.icon-persons:before {
+  content: "\E02F";
+}
+
+.icon-privatefiles:before {
+  content: "\E030";
+}
+
+.icon-rating:before {
+  content: "\E031";
+}
+
+.icon-rejected:before {
+  content: "\E032";
+}
+
+.icon-research:before {
+  content: "\E033";
+}
+
+.icon-revised:before {
+  content: "\E034";
+}
+
+.icon-sales-department:before {
+  content: "\E035";
+}
+
+.icon-sales:before {
+  content: "\E036";
+}
+
+.icon-search:before {
+  content: "\E037";
+}
+
+.icon-sertificate:before {
+  content: "\E038";
+}
+
+.icon-sitesettings:before {
+  content: "\E039";
+}
+
+.icon-sort:before {
+  content: "\E03A";
+}
+
+.icon-staff:before {
+  content: "\E03B";
+}
+
+.icon-structure:before {
+  content: "\E03C";
+}
+
+.icon-support:before {
+  content: "\E03D";
+}
+
+.icon-time:before {
+  content: "\E03E";
+}
+
+.icon-tv:before {
+  content: "\E03F";
+}
+
+.link {
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  color: #1e3447;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #1e5cb3;
+  text-decoration: underline;
+}
